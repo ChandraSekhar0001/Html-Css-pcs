@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(185, 181, 181);
+    
+}
+
+.page-top{
+    
+}
+.page-center{
+    text-align: center;
+}
+.login-box{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border: none;
+}
+.password-input{
+    display: block;
+}
+.button-login{
+    
+}

@@ -1,0 +1,223 @@
+.button-2a{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    font-size: 12px;
+}
+.button-2b{
+    background-color: yellow;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.button-2c{
+    background-color: rgb(10, 164, 79);
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.button-2d-1{
+    background-color: rgb(121, 82, 179);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.button-2d-2{
+    border-color: rgb(108, 117, 125);
+    color: rgb(121, 82, 179);
+    padding: 9px 20px 9px 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: white;
+
+}
+.button-2e-1{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    border: none;
+    font-size: 13px;
+}
+.button-2e-2{
+    color: rgb(10, 102, 194);
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(10, 102, 194);
+    font-size: 13px;
+    padding: 10px 24px 10px 24px ;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.Challenge-2-1{
+    font-weight: bold;
+    font-size: 24px;
+}
+.Challenge-2-2{
+    color: rgb(0, 125, 0);
+    font-weight: bold;
+}
+.Challenge-2-3{
+    color: black;
+    font-weight: bold;
+}
+.Challenge-2-4,.Challenge-2-5{
+    background-color: rgb(255, 216, 20);
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-right:10px ;
+}
+.Challenge-2-5{
+    background-color: rgb(255, 164, 28);
+}
+.button-3a{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    font-size: 12px;
+    transition: background-color 0.15s,color 0.15s;
+
+}
+.button-3a:hover{
+    background-color: white ;
+    color: black;
+    border:1px solid;
+}
+.button-3b{
+    background-color: yellow;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: opacity 0.15s;
+}
+.button-3b:hover{
+    opacity: 0.7;
+}
+.button-3c{
+    background-color: rgb(10, 164, 79);
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    transition: box-shadow 0.15s;
+}
+.button-3c:hover{
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.button-3d-1{
+    background-color: rgb(121, 82, 179);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: opacity 0.15s;
+}
+.button-3d-1:hover{
+    opacity: 0.8;
+}
+.button-3d-2{
+    border-color: rgb(108, 117, 125);
+    color: rgb(121, 82, 179);
+    padding: 9px 20px 9px 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: white;
+    transition: background-color 0.15s,color 0.15s;
+}
+.button-3d-2:hover{
+    background-color: rgb(121, 82, 179);
+    color: white;
+}
+.button-3e-1{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    border: none;
+    font-size: 13px;
+    transition: background-color 0.15s,color 0.15s,border 0.15s;
+}
+.button-3e-1:hover{
+    background-color: white;
+    border: 1px solid rgb(10, 102, 194);
+    color: rgb(10, 102, 194);
+}
+.button-3e-2{
+    color: rgb(10, 102, 194);
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(10, 102, 194);
+    font-size: 13px;
+    padding: 10px 24px 10px 24px ;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.15s,color 0.15s;
+}
+.button-3e-2:hover{
+    background-color: rgb(171, 194, 216);
+    color: white;
+}
+.p-4a{
+    display: inline;
+    color: blue;
+    text-decoration: underline;
+    margin-right: 5px;
+
+}
+.button-4b{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    transition: padding 0.15s;
+}
+.button-4b:hover{
+    padding: 10px 20px 10px 20px ;
+}
+.button-4c{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    transition: box-shadow 0.15s;
+}
+.button-4c:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.button-4d{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.button-4d:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.text-5a{
+    font-size: 30px;
+    font-weight: bold;
+}

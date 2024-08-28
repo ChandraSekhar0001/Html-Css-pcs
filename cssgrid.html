@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+
+    </head>
+    <body style="padding-bottom: 1000px ;">
+        <!--grid maintain align much better
+        fr means free space
+        column-gap,row-rap is used to gap between two containers
+        display:grid;
+        grid-template-columns-->
+        
+        <div style="display: grid;
+        grid-template-columns: 100px 100px; margin-bottom:10px;">
+            <div style="background-color: lightgreen;">
+                hello
+            </div>
+            <div style="background-color:lightblue;">
+                hello<p>hi</p>
+            </div>
+        </div>
+        <div style="display: grid;
+        grid-template-columns: 100px 100px 200px;margin-bottom:10px;">
+            <div style="background-color: lightgreen;">
+                100px
+            </div>
+            <div style="background-color:lightblue;">
+                100px<p>hi</p>
+            </div>
+            <div style="background-color: lightgreen;">
+                200px
+            </div>
+            <div style="background-color:lightblue;">
+                100px
+            </div>
+        </div>
+        <div style="display: grid;
+        margin-top:30px;
+        grid-template-columns: 100px 1fr">
+            <div style="background-color: lightgreen;">
+                100px
+            </div>
+            <div style="background-color:lightblue;">
+                1fr
+            </div>
+            
+        </div>
+        <div style="display: grid;
+        margin-top:30px;
+        grid-template-columns: 100px 1fr 2fr">
+            <div style="background-color: lightgreen;">
+                100px
+            </div>
+            <div style="background-color:lightblue;">
+                1fr
+            </div>
+            <div style="background-color:lightgreen;">
+                2fr
+            </div>
+            
+        </div>
+        <div style="display: grid;
+        margin-top:30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap:20px;row-gap:30px;">
+            <div style="background-color: lightgreen;height:200px;">
+                1fr
+            </div>
+            <div style="background-color:lightblue;height:200px;">
+                1fr
+            </div>
+            <div style="background-color:lightgreen;height:200px;">
+                1fr
+            </div>
+            <div style="background-color:lightblue;height:200px;">
+                1fr
+            </div>
+            <div style="background-color:lightgreen;height:200px;">
+                1fr
+            </div>
+            <div style="background-color:lightblue;height:200px;">
+                1fr
+            </div>
+            
+        </div>
+        <div style="display: grid;
+        margin-top:30px;
+        grid-template-columns: 200px 75px">
+            <div style="background-color: lightgreen;">
+                200px
+            </div>
+            <div style="background-color:lightblue;">
+                75px
+            </div>
+            
+        </div>
+        <div style="display: grid;
+        margin-top:30px;
+        grid-template-columns: 50px 1fr 75px">
+            <div style="background-color: lightgreen;">
+                50px
+            </div>
+            <div style="background-color:lightblue;">
+                1fr
+            </div>
+            <div style="background-color:lightgreen;">
+                75px
+            </div>
+            
+        </div>
+        <div style="display: grid;
+        margin-top:30px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap:20px;row-gap:30px;">
+            <div style="background-color: lightgreen;">
+                1fr
+            </div>
+            <div style="background-color:lightblue;">
+                1fr
+            </div>
+            <div style="background-color:lightgreen;">
+                1fr
+            </div>
+            <div style="background-color:lightblue;">
+                1fr
+            </div>
+            <div style="background-color:lightgreen;">
+                1fr
+            </div>
+            <div style="background-color:lightblue;">
+                1fr
+            </div>
+            <div style="background-color:lightgreen;">
+                1fr
+            </div>
+            <div style="background-color:lightblue;">
+                1fr
+            </div>
+        </div>
+        
+    </body>
+</html> 

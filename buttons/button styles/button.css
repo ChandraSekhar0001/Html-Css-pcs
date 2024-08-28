@@ -1,0 +1,136 @@
+.subscribe-button{
+    background-color: rgb(242, 5, 5);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px ;
+    cursor:pointer;
+    margin-right: 8px;
+
+}
+.join-button{
+    background-color: white;
+    color: rgb(54, 54, 214);
+    border-color: rgb(5, 85, 184);
+    height: 30px;
+    width: 70px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.tweet-button{
+    background-color: rgb(61, 123, 217);
+    color: white;
+    height: 35px;
+    width: 75px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+.uber{
+    background-color: black;
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size: small;
+    border: none;
+    cursor: pointer;
+
+}
+.amazon{
+    background-color: rgb(255, 216, 20);
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+.Github{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+.bootstrap-get{
+    background-color: rgb(121, 82, 179);
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    margin-right: 4px;
+    cursor: pointer;
+
+}
+.bootstrap-dow{
+    color: rgb(108, 117, 125);
+    background-color: white;
+    font-size: 12px;
+    border-width: 1px;
+    font-weight: bold;
+    height: 35px;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.link-app{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 220px;
+    border: none;
+    border-radius: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+
+}
+.link-save{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-radius: 18px;
+    border-width: 1px;
+    height: 35px;
+    width: 70px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cart{
+    background-color: rgb(255, 216, 20);
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+}    
+.buy{
+    background-color: rgb(255, 164, 28);
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+u{
+    color: rgb(0, 113, 133);
+}   
+.in{
+    color: rgb(0, 118, 0);
+}

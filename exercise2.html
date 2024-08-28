@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position absolute and relative</title>
+        <style>
+            .close-button{
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+            .close-but{
+                background-color: rgb(15, 15, 15);
+                color: white;
+                font-size: 20px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 5px;
+                border-radius: 50px;
+                border: 0;
+            }
+            body{
+                height: 3000px;
+            }
+            .ads-border{
+                width: 320px;
+                height: 180px;
+                background-color: gray;
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                
+            }
+            .ads-button{
+                background-color: rgb(15, 15, 15);
+                color: white;
+                font-size: 20px;
+                position: fixed;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 5px;
+                border-radius: 50px;
+                border: 0;
+                bottom: 170px;
+                right: 310px;
+            }
+            .ads-time{
+                background-color:black ;
+                color: white;
+                font-family: roboto,arial;
+                font-size: 15px;
+                padding-left: 4px;
+                padding-right: 4px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                border-radius: 2px;
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+
+            }
+            .shirt-overlay{
+                width: 200px;
+                height: 265px;
+                background-color: lightgray;
+                position: relative;
+            }
+            .shirt{
+                width: 200px;
+                position: relative
+            }
+            .offer{
+                position: absolute;
+                background-color: black;
+                color: white;
+                font-family: roboto,arial;
+                font-size: 12px;
+                padding-left: 10px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-right: 10px;
+                border-radius: 2px;
+                right: 0px;
+                top: 5px;
+
+            }
+            .overlay-cart{
+                width: 200px;
+                height: 100px;
+                backdrop-filter: blur(5px);
+                position: absolute;
+                bottom: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .cart-button{
+                font-family: roboto,arial;
+                padding-left: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-right: 10px;
+                border-radius: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="close-button">
+            <button class="close-but">x</button>
+        </div>
+        <div class="ads-border">
+            <button class="ads-button">x</button>
+            <div class="ads-time">0:29</div>
+        </div>
+        <div class="shirt-overlay">
+            <img class="shirt" src="images/9gjje_512.webp" >
+            <div class="offer">20% OFF</div>
+            <div class="overlay-cart">
+                <div class="cart"><button class="cart-button">Add to Cart</button></div>
+            </div>
+        </div>
+    </body>
+</html>

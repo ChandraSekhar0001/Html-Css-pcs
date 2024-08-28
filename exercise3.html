@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube channel</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            p{
+                margin: 0;
+                font-family:roboto, arial;
+                margin-left: 10px;
+            }
+            .video-layout{
+                width: 300px;
+                height: 280px;
+            
+            }
+            
+            .video-thumbnail{
+                width:100%;
+                cursor: pointer;
+            }
+            .video-bottom{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+                margin-top: 10px;
+            }
+            
+            .channel-logo{
+                width: 50px;
+                border-radius: 25px;
+                cursor: pointer;
+                position: relative;
+            }
+            .title{
+                font-size: 16px;
+                margin-bottom: 15px;
+                cursor: pointer;
+            }
+            .channel-name{
+                font-size: 13px;
+                color: gray;
+                margin-bottom: 6px;
+            
+            }
+            .views{
+                font-size: 12px;
+                color: gray;
+            }
+            .channel-overly{
+                position: absolute;
+                background-color: white;
+                font-family: roboto,arial;
+                margin: 8px;
+                padding: 10px;
+                border-radius: 4px;
+                box-shadow: 1px 1px 5px rgba(0, 0,0, 0.25);
+                border-radius: 1px solid;
+                display: flex;
+                align-items: center;
+                width: 200px;
+                transition: opacity 0.15s;
+                opacity: 0;
+                z-index: 100;
+                pointer-events: none;
+            }
+            .video-logo:hover .channel-overly{
+                opacity: 1;
+            }
+            
+            
+            .channel-overly-logo{
+                width:60px;
+                border-radius: 30px;
+                margin-right: 10px;
+            }
+            .overly-stats{
+                font-family: roboto,arial;
+                padding-right: 30px;
+                font-size: 15px;
+            }
+            .overly-channel-name{
+                font-family: roboto,arial;
+                font-size: 16px ;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                
+                
+            }
+            .channel-subscribers{
+                font-family: roboto,arial;
+                font-size: 11px;
+                color: gray;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="video-layout">
+            <div class="video-top">
+                <img class="video-thumbnail" src="tumbnails/1692852571088.jpg">
+                
+            </div>
+            <div class="video-bottom">
+                <div class="video-logo">
+                    <img class="channel-logo" src="tumbnails/logos/1615272016262.jpg">
+                    <div class="channel-overly">
+                        <img class="channel-overly-logo" src="tumbnails/logos/1615272016262.jpg">
+                        <div>
+                            <div class="overly-stats">
+                                Wild Gamer
+                            </div>
+                            <div class="channel-subscribers">
+                                7.87k Subscribers
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="video-stats">
+                    <p class="title">Stealing first car in Gta V || Gta car theft</p>
+                    <p class="channel-name">Wild Gamer</p>
+                    <p class="views">120 views . 6 months ago</p>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

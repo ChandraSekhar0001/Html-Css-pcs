@@ -1,0 +1,198 @@
+.titel{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    width: 320px;
+    margin-bottom: 0px;
+    line-height: 26px;
+
+}
+.stats{
+    font-family: arial;
+    font-size: 15px;
+    color: gray;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.author{
+    font-family: arial;
+    font-size: 15px;
+    color: gray;
+    margin-top: 8px;
+    margin-bottom:0px ;
+}
+.discription{
+    font-family: arial;
+    font-size:15px ;
+    width: 300;
+    color: gray;
+}
+.apple{
+    background-color: rgb(233, 39, 39);
+    font-family: Arial;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 15px;
+}
+.click:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.font-tahoma{
+    font-family: tahoma;
+    font-size: 30px;
+    font-weight: bold;
+}
+.font-verdana{
+    font-family: verdana;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+.pro{
+    font-family: verdana;
+    color: gray;
+    margin-top: 8px;
+    font-size: 25px;
+
+}
+.course{
+    font-family: verdana;
+    font-size: 24px;
+    width: 450px;
+    margin-top: 5px;
+    
+}
+.get-start{
+    font-family: verdana;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 23px;
+}
+.deals{
+    font-family: arial;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.sales{
+    font-family: arial;
+    font-style: italic;
+    font-size: 25px;
+    color: red;
+    margin-top: 6px;
+}
+.shopp{
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+.help{
+    font-family: arial;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+.learn{
+    font-family: arial;
+    font-size: 23px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+.learn:hover{
+    text-decoration: underline;
+}
+.new{
+    font-family: arial;
+    text-align: center;
+    color: red;
+    margin-bottom: 0px;
+    font-weight: bold;
+
+}
+.mac{
+    font-family: arial;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+.pros{
+    font-family: arial;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+.price{
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.my-div{
+    text-align: center;
+}
+.mac-buy{
+    font-family: arial;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+.mac-buy:hover{
+    opacity: 0.5;
+}
+.mac-buy:active{
+    opacity: 0.8;
+}
+.usd-m{
+    font-family: arial;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: b;
+}
+.usd{
+    font-size: 20px;
+    color: gray;
+
+}
+.intrest{
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+
+}
+.hour{
+    font-family: Arial;
+    font-size: 20px;
+    color: gray;
+    margin-top: 8px;
+}
+.loss{
+    color: red;
+}

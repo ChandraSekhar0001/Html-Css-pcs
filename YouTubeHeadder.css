@@ -1,0 +1,197 @@
+.headder{
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style:solid ;
+    border-bottom-color: rgb(220, 215, 215);
+    z-index: 1;
+}
+.headder-left{
+    display: flex;
+    align-items:center;
+    
+}
+.hamburder{
+    width: 22px;
+    margin-left:20px;
+    margin-right:12px;
+    cursor: pointer;
+}
+.youtube-logo{
+    margin-left:12px;
+    width: 85px;
+    vertical-align:7px;
+    cursor: pointer;
+}
+.headder-center{
+    flex:1;
+    margin-left: 55px;
+    margin-right:22px;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex:1;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    font-family: roboto,arial;
+    font-size: 14px;
+    cursor: pointer;
+    width: 0;
+    border:1px solid;
+    border-color: rgb(197, 195, 195);
+    border-radius: 2px;
+    box-shadow:inset 1px 2px 5px rgba(0,0,0,0.05)
+
+
+}
+.search-button{
+    width: 60px;
+    height: 36px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: 1px solid;
+    border-color: rgb(203, 200, 200);
+    margin-left:-1px;
+    border-radius: 2px;
+    margin-right: 10px;    
+    cursor:pointer;
+    
+}
+.search-button,.voice-button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.search-button .tooltip,
+.voice-button .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-top: 35px;
+    font-family: roboto,arial;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap ;
+
+
+}
+.voice-button .tooltip{
+    margin-bottom: -35px;
+}
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip{
+    opacity: 1;
+}
+.voice-button{
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 19px;
+    border:none;
+    cursor:pointer;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+
+}
+
+.headder-right{
+    width: 190px;
+    display: flex;
+    align-items:center;
+    flex-shrink: 0;
+}
+.headder-uplode .tooltip1,
+.headder-youtube-apps .tooltip1,
+.headder-notification .tooltip1{
+    position: absolute;
+    background-color: gray;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-family: roboto,arial;
+    font-size: 13px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: -15px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.headder-youtube-apps .tooltip1,
+.headder-notification .tooltip1{
+    margin-left: -30px;
+}
+.headder-uplode:hover .tooltip1,
+.headder-youtube-apps:hover .tooltip1,
+.headder-notification:hover .tooltip1{
+    opacity: 1;
+}
+.headder-uplode{
+    width: 22px;
+    margin-right: 23px;
+    cursor: pointer;
+
+ 
+}
+.uplode,.youtube-apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+}
+.headder-youtube-apps{
+    width: 22px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.headder-notification{
+    width: 22px;
+    margin-right: 23px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.not-count{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    width: 5px;
+    height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    object-fit: cover;
+    border-radius: 15px;
+    font-family: roboto,arial;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 12px;
+    
+    
+
+}
+.channel-logo{
+    width: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
